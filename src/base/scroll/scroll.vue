@@ -93,6 +93,7 @@ export default {
   },
   mounted() {
     setTimeout(() => {
+      console.log("Init");
       this._initScroll();
     }, 100);
   },
